@@ -1,22 +1,268 @@
 ﻿<!doctype html>
 <html lang="en">
 <head>
+    <style>
+        .flex-container {
+            display: flex;
+            height: 200px;
+            align-items: baseline;
+            background-color: black;
+            justify-content: center;
+        }
+
+            .flex-container > div {
+                background-color: black;
+                width: 900px;
+                margin: 10px;
+                text-align: center;
+                line-height: 30px;
+                font-size: 20px;
+                border: solid;
+                border-color: gray;
+            }
+    </style>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <title>Hello, world!</title>
 </head>
-<body>
-    <h1>Hello, world!</h1>
+<body style="background-color:black">
+    <div class="media">
+        <img src="../Images/starwars_banner.png" class="media-object" style="width:100%">
+    </div>
+    <!--<div class="container-fluid">-->
+    <div class="main-content" style="margin-left: 10%; margin-right:10%">
+        <font color="yellow">
+            <p>
+                <h2>Introduction</h2>
+                Star Wars, a franchise of epic proportions with devoted fans around the entire planet. This universe filled with wonder and intrigue,
+                created by George Lucas, has enjoyed decades of prosperity with 10 live action filmed made, 1 animated film and countless of animated tv episodes.
+                How does the social network of the canon Star Wars universe look like? This webpage compares the social network for each film. It also takes a look
+                at the social network the occurs in the films and TV-series as a whole.
+                Additionally text analysis is performed to find the words that characterize each movie and TV-series, and to build a timeline of how the sentiment in the Star Wars
+                galaxy changes over time.
+            </p>
+            <p>
+                <h2>Data Acquisition</h2>
+                Before the social network of the Star Wars universe can be built the characters that occur and how they link to each other has to be identified.
+                To do that a reliable data source is needed. The only right place to go is <a href="https://starwars.wikia.com">Wookieepedia the Star Wars wiki</a>.
+                The list of characters that appear in each film and each episode of the Clone Wars and REBELs TV-series was excracted from the appropriate Wookieepedia articles.
+                The list of characters are used as nodes in the Star Wars social graph. To find out how characters are connected the Wookiepedia articles about each character
+                are analyzed. If there exists a link from the article of one character to the article of another a link is created between those two characters. Additionally a
+                list of affiliations is created for each character, i.e. is the character affiliated with the Jedi Order, Sith, Republic, etc.
 
+                To find out what words characterize each movie and TV-episode, the scripts are analyzed and Word Clouds are constructed based and the TF-IDF. For sentiment analysis
+                the LabMT wordlist is used along with the hedonometer method from <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026752">Temporal Patterns of Happiness and Information in a Global Social Network: Hedonometrics and Twitter</a>.
+            </p>
+            <h2>Network Analysis</h2>
+
+            <div class="w3-bar w3-black">
+                <button class="w3-bar-item w3-button" onclick="openNetwork('EpisodeI')">Episode I</button>
+                <button class="w3-bar-item w3-button" onclick="openNetwork('EpisodeII')">Episode II</button>
+                <button class="w3-bar-item w3-button" onclick="openNetwork('TCW_film')">The Clone Wars (film)</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('TCW_tv')">The Clone Wars (TV)</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('EpisodeIII')">Episode III</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('Solo')">Solo</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('RogueOne')">Rogue One</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('EpisodeIV')">Episode IV</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('EpisodeV')">Episode V</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('EpisodeVI')">Episode VI</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('EpisodeVII')">Episode VII</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('EpisodeVIII')">Episode VIII</button>
+            </div>
+            <div id="EpisodeI" class="  movie">
+
+                <!--<span onclick="this.parentElement.style.display='none'"
+                      class="w3-button w3-large w3-display-topright">&times;</span>-->
+                <h4>Star Wars: Episode I - The Phantom Menice</h4>
+                <div class="flex-container">
+                    <div class="media">
+                        <img src="networks/episode_I.png" style="width:100%">
+                    </div>
+
+                    <div>
+                        Nodes:
+                        <br />
+                        Edges:
+                    </div>
+                    <h5>Degree distribution</h5>
+                    <img src="degree_distributions/in/episode_I.png" style="width:30%">
+                    <img src="degree_distributions/out/episode_I.png" style="width:30%">
+                    <p style="font-size:16px; margin-left:50px; margin-right:50px;">
+                        We see that the In-Degree distribution is similar to a power-law distribution. That means that we have a large amount of nodes
+                        with low degree and a small group of nodes with a high degree. The same can be said about the Out-Degree distribution, however the out-degree
+                        deviates more from the power-law than the in-degree does.
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>In-Degree</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="Paris" class="w3-container w3-display-container city" style="display:none">
+                <span onclick="this.parentElement.style.display='none'"
+                      class="w3-button w3-large w3-display-topright">&times;</span>
+                <h2>Paris</h2>
+                <p>Paris is the capital of France.</p>
+            </div>
+
+            <div id="Tokyo" class="w3-container w3-display-container city" style="display:none">
+                <span onclick="this.parentElement.style.display='none'"
+                      class="w3-button w3-large w3-display-topright">&times;</span>
+                <h2>Tokyo</h2>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
+
+            <div class="flex-container">
+
+                <div style="width:10px; border:none; margin:1px;"><a onclick="plusDivs(-1)" onmouseover="addHighlight(this)" onmouseout="removeHighlight(this)">&#10094;</a></div>
+                <div>
+                    <div class="media">
+                        <div class="mySlides">
+                            <h4>Star Wars: Episode I - The Phantom Menice</h4>
+                            <div>
+                                <img src="networks/episode_I.png" style="width:100%">
+                            </div>
+                            <div>
+                                Nodes:
+                                <br />
+                                Edges:
+                            </div>
+                            <h5>Degree distribution</h5>
+                            <img src="degree_distributions/in/episode_I.png" style="width:30%">
+                            <img src="degree_distributions/out/episode_I.png" style="width:30%">
+                            <p style="font-size:16px; margin-left:50px; margin-right:50px;">
+                                We see that the In-Degree distribution is similar to a power-law distribution. That means that we have a large amount of nodes
+                                with low degree and a small group of nodes with a high degree. The same can be said about the Out-Degree distribution, however the out-degree
+                                deviates more from the power-law than the in-degree does.
+                            </p>
+                            <table>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>In-Degree</th>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="mySlides">
+                            <h4>Star Wars: Episode II - Attack of the Clones</h4>
+                            <img src="https://raw.githubusercontent.com/s103619/02805_project_b/master/pictures/wc_s2.png" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <h4>Star Wars: The Clone Wars (film)</h4>
+                            <img src="https://raw.githubusercontent.com/s103619/02805_project_b/master/pictures/wc_s3.png" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <h4>Star Wars: Episode III - Revenge of the Sith</h4>
+                            <img src="https://raw.githubusercontent.com/s103619/02805_project_b/master/pictures/wc_s4.png" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <h4>Solo: A Star Wars Story</h4>
+                            <img src="https://raw.githubusercontent.com/s103619/02805_project_b/master/pictures/wc_s5.png" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <h4>Rogue One: A Star Wars Story</h4>
+                            <img src="https://raw.githubusercontent.com/s103619/02805_project_b/master/pictures/wc_s6.png" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <h4>Star Wars: Episode IV - A New Hope</h4>
+                            <img src="https://raw.githubusercontent.com/s103619/02805_project_b/master/pictures/wc_s6.png" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <h4>Star Wars: Episode V - The Empire Strikes Back</h4>
+                            <img src="https://raw.githubusercontent.com/s103619/02805_project_b/master/pictures/wc_s6.png" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <h4>Star Wars: Episode VI - Return of the Jedi</h4>
+                            <img src="https://raw.githubusercontent.com/s103619/02805_project_b/master/pictures/wc_s6.png" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <h4>Star Wars: Episode VII - The Force Awakens</h4>
+                            <img src="https://raw.githubusercontent.com/s103619/02805_project_b/master/pictures/wc_s6.png" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <h4>Star Wars: Episode VIII - The Last Jedi</h4>
+                            <img src="https://raw.githubusercontent.com/s103619/02805_project_b/master/pictures/wc_s6.png" style="width:100%">
+                        </div>
+                    </div>
+                </div>
+                <div style="width:10px; border:none; margin:1px;"><a onclick="plusDivs(1)" onmouseover="addHighlight(this)" onmouseout="removeHighlight(this)">&#10095;</a></div>
+
+            </div>
+            <p class="w3-center" style="font-size:10pt; margin:auto; text-align:justify!important; width:70%">Manual Slideshow</p>
+
+
+        </font>
+    </div>
+    <!--</div>-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var y = document.getElementsByClassName("w3-center");
+            var splat = ['We can see that Eddard (Ned) Stark is one of the more prominent names in the cloud. Tyrion is larger, but Eddard\'s name is there at least twice (Eddard and Ned), meaning it would be larger than it shows. Stark is easily the most prominent term, indicating that the Stark family takes up the majority of the screen time, with the Lannisters in second place.',
+                'We see a stark decline in the prominence of the Stark house, meaning that either the scripts stop referring to them by their house name, or that other families and characters are put more in focus. We see that the head of the Stark family, Eddard \'Ned\' Stark, is completely absent, which makes sense considering he\'s dead. King is the most prominent here, indicating that there is a large focus on the king of Winterfell.',
+                'The house and character names are starting to decrease significantly, with none of them being particularly prominent during this season. Focus seems to be on the leader of Winterfell instead.',
+                'The house names are even smaller this time, but we see Jon start to take up more space compared to any other character.',
+                'Cersei is starting to become a much more prominent character, when Jon doesn\'t hog the screen time. Everyone\'s favourite characer, Tyrion, seemingly hasn\'t decreased in popularity given that his screen time',
+                'It looks like Jon Snow either has an awful lot of screen time or the characters can\'t stop talking about him this season. Tyrion remains as prominent as ever. Ramsay is given more attention here than previously, which makes sense considering this was the season where Jon Snow\'s army fought against Ramsay\'s army.'];
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+            y[0].innerText = splat[slideIndex - 1];
+        }
+
+        function addHighlight(x) {
+            x.style.textDecoration = "underline";
+            x.style.cursor = "pointer";
+        }
+
+        function removeHighlight(x) {
+            x.style.textDecoration = "none";
+        }
+    </script>
+    <script>
+        var movieOpen = "EpisodeI";
+        function openNetwork(movieName) {
+            var i;
+            var x = document.getElementsByClassName("movie");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            if (movieOpen == movieName) {
+                document.getElementById(movieName).style.display = "none";
+                movieOpen = "";
+            }
+            else {
+                document.getElementById(movieName).style.display = "block";
+                movieOpen = movieName;
+            }
+
+        }
+    </script>
+
 </body>
 </html>
