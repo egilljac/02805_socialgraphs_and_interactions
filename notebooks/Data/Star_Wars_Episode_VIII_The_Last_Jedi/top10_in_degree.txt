@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>in_degree</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Finn</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>Rose Tico</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <td>Leia Organa</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>Poe Dameron</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>Luke Skywalker</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>Kylo Ren</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>Rey</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>Amilyn Holdo</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>Snoke</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>BB-8</td>
+      <td>22</td>
+    </tr>
+  </tbody>
+</table>

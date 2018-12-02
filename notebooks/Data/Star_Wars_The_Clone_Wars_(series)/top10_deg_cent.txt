@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>degree_centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Anakin Skywalker</td>
+      <td>0.564371</td>
+    </tr>
+    <tr>
+      <td>Obi-Wan Kenobi</td>
+      <td>0.450599</td>
+    </tr>
+    <tr>
+      <td>Ahsoka Tano</td>
+      <td>0.402695</td>
+    </tr>
+    <tr>
+      <td>Dooku</td>
+      <td>0.336826</td>
+    </tr>
+    <tr>
+      <td>Padmé Amidala</td>
+      <td>0.260479</td>
+    </tr>
+    <tr>
+      <td>Darth Sidious</td>
+      <td>0.260479</td>
+    </tr>
+    <tr>
+      <td>Rex</td>
+      <td>0.248503</td>
+    </tr>
+    <tr>
+      <td>Darth Vader</td>
+      <td>0.236527</td>
+    </tr>
+    <tr>
+      <td>R2-D2</td>
+      <td>0.217066</td>
+    </tr>
+    <tr>
+      <td>Asajj Ventress</td>
+      <td>0.217066</td>
+    </tr>
+  </tbody>
+</table>

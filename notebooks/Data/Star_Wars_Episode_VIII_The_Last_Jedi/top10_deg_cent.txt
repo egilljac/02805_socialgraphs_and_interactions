@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>degree_centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Finn</td>
+      <td>0.403614</td>
+    </tr>
+    <tr>
+      <td>Leia Organa</td>
+      <td>0.367470</td>
+    </tr>
+    <tr>
+      <td>Poe Dameron</td>
+      <td>0.319277</td>
+    </tr>
+    <tr>
+      <td>Luke Skywalker</td>
+      <td>0.307229</td>
+    </tr>
+    <tr>
+      <td>Rose Tico</td>
+      <td>0.307229</td>
+    </tr>
+    <tr>
+      <td>Kylo Ren</td>
+      <td>0.271084</td>
+    </tr>
+    <tr>
+      <td>Han Solo</td>
+      <td>0.240964</td>
+    </tr>
+    <tr>
+      <td>BB-8</td>
+      <td>0.240964</td>
+    </tr>
+    <tr>
+      <td>Rey</td>
+      <td>0.240964</td>
+    </tr>
+    <tr>
+      <td>Snoke</td>
+      <td>0.228916</td>
+    </tr>
+  </tbody>
+</table>

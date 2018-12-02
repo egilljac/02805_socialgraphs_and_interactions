@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>eigenvector_centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ezra Bridger</td>
+      <td>0.266832</td>
+    </tr>
+    <tr>
+      <td>Kanan Jarrus</td>
+      <td>0.210398</td>
+    </tr>
+    <tr>
+      <td>C1-10P</td>
+      <td>0.203526</td>
+    </tr>
+    <tr>
+      <td>Darth Sidious</td>
+      <td>0.194713</td>
+    </tr>
+    <tr>
+      <td>Sabine Wren</td>
+      <td>0.191880</td>
+    </tr>
+    <tr>
+      <td>Hera Syndulla</td>
+      <td>0.183108</td>
+    </tr>
+    <tr>
+      <td>Darth Vader</td>
+      <td>0.181726</td>
+    </tr>
+    <tr>
+      <td>Ahsoka Tano</td>
+      <td>0.171558</td>
+    </tr>
+    <tr>
+      <td>Mitth'raw'nuruodo</td>
+      <td>0.169470</td>
+    </tr>
+    <tr>
+      <td>Alexsandr Kallus</td>
+      <td>0.154571</td>
+    </tr>
+  </tbody>
+</table>

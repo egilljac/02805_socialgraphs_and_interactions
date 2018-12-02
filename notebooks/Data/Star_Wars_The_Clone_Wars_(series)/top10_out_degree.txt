@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>out_degree</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Anakin Skywalker</td>
+      <td>172</td>
+    </tr>
+    <tr>
+      <td>Obi-Wan Kenobi</td>
+      <td>129</td>
+    </tr>
+    <tr>
+      <td>Darth Vader</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>Ahsoka Tano</td>
+      <td>89</td>
+    </tr>
+    <tr>
+      <td>Rex</td>
+      <td>88</td>
+    </tr>
+    <tr>
+      <td>Dooku</td>
+      <td>82</td>
+    </tr>
+    <tr>
+      <td>R2-D2</td>
+      <td>81</td>
+    </tr>
+    <tr>
+      <td>Padmé Amidala</td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <td>Asajj Ventress</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>Mace Windu</td>
+      <td>64</td>
+    </tr>
+  </tbody>
+</table>

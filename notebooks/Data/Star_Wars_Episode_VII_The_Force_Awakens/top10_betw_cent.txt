@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>betweenness_centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Maz Kanata</td>
+      <td>0.081734</td>
+    </tr>
+    <tr>
+      <td>Rey</td>
+      <td>0.054921</td>
+    </tr>
+    <tr>
+      <td>Finn</td>
+      <td>0.044657</td>
+    </tr>
+    <tr>
+      <td>Kylo Ren</td>
+      <td>0.039661</td>
+    </tr>
+    <tr>
+      <td>Leia Organa</td>
+      <td>0.039412</td>
+    </tr>
+    <tr>
+      <td>Poe Dameron</td>
+      <td>0.032637</td>
+    </tr>
+    <tr>
+      <td>BB-8</td>
+      <td>0.029703</td>
+    </tr>
+    <tr>
+      <td>Han Solo</td>
+      <td>0.029632</td>
+    </tr>
+    <tr>
+      <td>Luke Skywalker</td>
+      <td>0.023253</td>
+    </tr>
+    <tr>
+      <td>Ello Asty</td>
+      <td>0.015228</td>
+    </tr>
+  </tbody>
+</table>

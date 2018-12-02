@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>betweenness_centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Obi-Wan Kenobi</td>
+      <td>0.125460</td>
+    </tr>
+    <tr>
+      <td>Padmé Amidala</td>
+      <td>0.108068</td>
+    </tr>
+    <tr>
+      <td>Anakin Skywalker</td>
+      <td>0.105221</td>
+    </tr>
+    <tr>
+      <td>Darth Sidious</td>
+      <td>0.040092</td>
+    </tr>
+    <tr>
+      <td>Mace Windu</td>
+      <td>0.029408</td>
+    </tr>
+    <tr>
+      <td>Onaconda Farr</td>
+      <td>0.022502</td>
+    </tr>
+    <tr>
+      <td>Dooku</td>
+      <td>0.017643</td>
+    </tr>
+    <tr>
+      <td>Nute Gunray</td>
+      <td>0.016428</td>
+    </tr>
+    <tr>
+      <td>Yoda</td>
+      <td>0.014520</td>
+    </tr>
+    <tr>
+      <td>Wat Tambor</td>
+      <td>0.014109</td>
+    </tr>
+  </tbody>
+</table>

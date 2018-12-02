@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>in_degree</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ezra Bridger</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <td>Kanan Jarrus</td>
+      <td>101</td>
+    </tr>
+    <tr>
+      <td>Sabine Wren</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>C1-10P</td>
+      <td>88</td>
+    </tr>
+    <tr>
+      <td>Hera Syndulla</td>
+      <td>84</td>
+    </tr>
+    <tr>
+      <td>Garazeb Orrelios</td>
+      <td>79</td>
+    </tr>
+    <tr>
+      <td>Darth Sidious</td>
+      <td>77</td>
+    </tr>
+    <tr>
+      <td>Mitth'raw'nuruodo</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>Ahsoka Tano</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>Darth Vader</td>
+      <td>60</td>
+    </tr>
+  </tbody>
+</table>

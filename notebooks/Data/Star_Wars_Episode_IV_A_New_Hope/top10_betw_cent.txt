@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>betweenness_centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Luke Skywalker</td>
+      <td>0.105603</td>
+    </tr>
+    <tr>
+      <td>Han Solo</td>
+      <td>0.075391</td>
+    </tr>
+    <tr>
+      <td>Darth Vader</td>
+      <td>0.051267</td>
+    </tr>
+    <tr>
+      <td>Obi-Wan Kenobi</td>
+      <td>0.042205</td>
+    </tr>
+    <tr>
+      <td>Cornelius Evazan</td>
+      <td>0.041568</td>
+    </tr>
+    <tr>
+      <td>Leia Organa</td>
+      <td>0.030949</td>
+    </tr>
+    <tr>
+      <td>Wedge Antilles</td>
+      <td>0.029288</td>
+    </tr>
+    <tr>
+      <td>R2-D2</td>
+      <td>0.025604</td>
+    </tr>
+    <tr>
+      <td>Jek Tono Porkins</td>
+      <td>0.025227</td>
+    </tr>
+    <tr>
+      <td>Wilhuff Tarkin</td>
+      <td>0.016336</td>
+    </tr>
+  </tbody>
+</table>

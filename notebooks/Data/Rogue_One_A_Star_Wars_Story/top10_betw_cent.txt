@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>betweenness_centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Jyn Erso</td>
+      <td>0.085783</td>
+    </tr>
+    <tr>
+      <td>Saw Gerrera</td>
+      <td>0.065510</td>
+    </tr>
+    <tr>
+      <td>Darth Vader</td>
+      <td>0.049471</td>
+    </tr>
+    <tr>
+      <td>Orson Callan Krennic</td>
+      <td>0.034472</td>
+    </tr>
+    <tr>
+      <td>Mon Mothma</td>
+      <td>0.032107</td>
+    </tr>
+    <tr>
+      <td>Raddus</td>
+      <td>0.026808</td>
+    </tr>
+    <tr>
+      <td>Galen Walton Erso</td>
+      <td>0.025718</td>
+    </tr>
+    <tr>
+      <td>Ruescott Melshi</td>
+      <td>0.019798</td>
+    </tr>
+    <tr>
+      <td>Cassian Jeron Andor</td>
+      <td>0.019739</td>
+    </tr>
+    <tr>
+      <td>Leia Organa</td>
+      <td>0.018695</td>
+    </tr>
+  </tbody>
+</table>

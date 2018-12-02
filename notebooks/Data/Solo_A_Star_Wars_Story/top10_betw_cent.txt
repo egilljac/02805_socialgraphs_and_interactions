@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>betweenness_centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Han Solo</td>
+      <td>0.068700</td>
+    </tr>
+    <tr>
+      <td>Qi'ra</td>
+      <td>0.045443</td>
+    </tr>
+    <tr>
+      <td>Dryden Vos</td>
+      <td>0.039365</td>
+    </tr>
+    <tr>
+      <td>L3-37</td>
+      <td>0.029906</td>
+    </tr>
+    <tr>
+      <td>Enfys Nest</td>
+      <td>0.028337</td>
+    </tr>
+    <tr>
+      <td>Tobias Beckett</td>
+      <td>0.020560</td>
+    </tr>
+    <tr>
+      <td>Lando Calrissian</td>
+      <td>0.015009</td>
+    </tr>
+    <tr>
+      <td>Falthina Sharest</td>
+      <td>0.014755</td>
+    </tr>
+    <tr>
+      <td>Chewbacca</td>
+      <td>0.014197</td>
+    </tr>
+    <tr>
+      <td>Quay Tolsite</td>
+      <td>0.012739</td>
+    </tr>
+  </tbody>
+</table>

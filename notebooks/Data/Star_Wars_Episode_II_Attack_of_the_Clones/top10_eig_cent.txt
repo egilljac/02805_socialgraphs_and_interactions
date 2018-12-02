@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>eigenvector_centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Obi-Wan Kenobi</td>
+      <td>0.307808</td>
+    </tr>
+    <tr>
+      <td>Anakin Skywalker</td>
+      <td>0.298269</td>
+    </tr>
+    <tr>
+      <td>Padmé Amidala</td>
+      <td>0.271760</td>
+    </tr>
+    <tr>
+      <td>Darth Sidious</td>
+      <td>0.271590</td>
+    </tr>
+    <tr>
+      <td>Dooku</td>
+      <td>0.261823</td>
+    </tr>
+    <tr>
+      <td>Mace Windu</td>
+      <td>0.246420</td>
+    </tr>
+    <tr>
+      <td>Yoda</td>
+      <td>0.223280</td>
+    </tr>
+    <tr>
+      <td>Qui-Gon Jinn</td>
+      <td>0.212090</td>
+    </tr>
+    <tr>
+      <td>Jango Fett</td>
+      <td>0.195513</td>
+    </tr>
+    <tr>
+      <td>Sifo-Dyas</td>
+      <td>0.164412</td>
+    </tr>
+  </tbody>
+</table>

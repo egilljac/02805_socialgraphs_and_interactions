@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>degree_centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ezra Bridger</td>
+      <td>1.041985</td>
+    </tr>
+    <tr>
+      <td>Sabine Wren</td>
+      <td>0.786260</td>
+    </tr>
+    <tr>
+      <td>Kanan Jarrus</td>
+      <td>0.755725</td>
+    </tr>
+    <tr>
+      <td>C1-10P</td>
+      <td>0.725191</td>
+    </tr>
+    <tr>
+      <td>Garazeb Orrelios</td>
+      <td>0.671756</td>
+    </tr>
+    <tr>
+      <td>Hera Syndulla</td>
+      <td>0.671756</td>
+    </tr>
+    <tr>
+      <td>Alexsandr Kallus</td>
+      <td>0.438931</td>
+    </tr>
+    <tr>
+      <td>Darth Sidious</td>
+      <td>0.431298</td>
+    </tr>
+    <tr>
+      <td>Mitth'raw'nuruodo</td>
+      <td>0.404580</td>
+    </tr>
+    <tr>
+      <td>Ahsoka Tano</td>
+      <td>0.396947</td>
+    </tr>
+  </tbody>
+</table>

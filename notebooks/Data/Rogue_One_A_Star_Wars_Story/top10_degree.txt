@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>degree</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Jyn Erso</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td>Saw Gerrera</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>Darth Vader</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>Galen Walton Erso</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>Leia Organa</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>Mon Mothma</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>Cassian Jeron Andor</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>Orson Callan Krennic</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>Wilhuff Tarkin</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>Bodhi Rook</td>
+      <td>33</td>
+    </tr>
+  </tbody>
+</table>

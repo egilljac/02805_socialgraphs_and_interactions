@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>eigenvector_centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Han Solo</td>
+      <td>0.393430</td>
+    </tr>
+    <tr>
+      <td>Tobias Beckett</td>
+      <td>0.349681</td>
+    </tr>
+    <tr>
+      <td>Dryden Vos</td>
+      <td>0.320771</td>
+    </tr>
+    <tr>
+      <td>Lando Calrissian</td>
+      <td>0.309090</td>
+    </tr>
+    <tr>
+      <td>Chewbacca</td>
+      <td>0.295900</td>
+    </tr>
+    <tr>
+      <td>Enfys Nest</td>
+      <td>0.264451</td>
+    </tr>
+    <tr>
+      <td>Qi'ra</td>
+      <td>0.261786</td>
+    </tr>
+    <tr>
+      <td>Maul</td>
+      <td>0.237562</td>
+    </tr>
+    <tr>
+      <td>Jabba Desilijic Tiure</td>
+      <td>0.234640</td>
+    </tr>
+    <tr>
+      <td>L3-37</td>
+      <td>0.223207</td>
+    </tr>
+  </tbody>
+</table>

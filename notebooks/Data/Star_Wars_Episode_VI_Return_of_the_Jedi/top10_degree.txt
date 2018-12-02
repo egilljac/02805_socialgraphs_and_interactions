@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>degree</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Jabba Desilijic Tiure</td>
+      <td>89</td>
+    </tr>
+    <tr>
+      <td>Han Solo</td>
+      <td>84</td>
+    </tr>
+    <tr>
+      <td>Luke Skywalker</td>
+      <td>79</td>
+    </tr>
+    <tr>
+      <td>Chewbacca</td>
+      <td>76</td>
+    </tr>
+    <tr>
+      <td>Leia Organa</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>Darth Vader</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>C-3PO</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>R2-D2</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <td>Darth Sidious</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>Lando Calrissian</td>
+      <td>37</td>
+    </tr>
+  </tbody>
+</table>

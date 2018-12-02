@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>in_degree</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Han Solo</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>Dryden Vos</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>Tobias Beckett</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>Qi'ra</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>L3-37</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Lando Calrissian</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>Chewbacca</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>Enfys Nest</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>Proxima</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>Jabba Desilijic Tiure</td>
+      <td>9</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>name</th>
+      <th>eigenvector_centrality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Saw Gerrera</td>
+      <td>0.293427</td>
+    </tr>
+    <tr>
+      <td>Leia Organa</td>
+      <td>0.285235</td>
+    </tr>
+    <tr>
+      <td>Darth Vader</td>
+      <td>0.279661</td>
+    </tr>
+    <tr>
+      <td>Darth Sidious</td>
+      <td>0.273147</td>
+    </tr>
+    <tr>
+      <td>Wilhuff Tarkin</td>
+      <td>0.260630</td>
+    </tr>
+    <tr>
+      <td>Mon Mothma</td>
+      <td>0.256596</td>
+    </tr>
+    <tr>
+      <td>Bail Organa</td>
+      <td>0.232634</td>
+    </tr>
+    <tr>
+      <td>Galen Walton Erso</td>
+      <td>0.231931</td>
+    </tr>
+    <tr>
+      <td>Obi-Wan Kenobi</td>
+      <td>0.214919</td>
+    </tr>
+    <tr>
+      <td>R2-D2</td>
+      <td>0.206543</td>
+    </tr>
+  </tbody>
+</table>
