@@ -24,6 +24,7 @@
         table {
             border: 2px double black;
             margin: 1em auto;
+            color: yellow;
         }
 
         th, td {
@@ -49,6 +50,7 @@
             overflow: hidden;
             border-bottom: 1px solid #474747;
             background-color: black;
+            color: yellow;
         }
 
             /* Style the buttons inside the tab */
@@ -114,9 +116,9 @@
     </div>
     <!--<div class="container-fluid">-->
     <div class="main-content" style="margin-left: 10%; margin-right:10%; text-align: center;">
-        <font color="yellow">
+        <font style="color:dodgerblue">
             <p>
-                <h2>Introduction</h2>
+                <h2 style="color:yellow;">Introduction</h2>
                 Star Wars, a franchise of epic proportions with devoted fans around the entire planet. This universe filled with wonder and intrigue,
                 created by George Lucas, has enjoyed decades of prosperity with 10 live action filmed made, 1 animated film and countless of animated tv episodes.
                 How does the social network of the canon Star Wars universe look like? This webpage compares the social network for each film. It also takes a look
@@ -125,19 +127,19 @@
                 galaxy changes over time.
             </p>
             <p>
-                <h2>Data Acquisition</h2>
+                <h2 style="color:yellow;">Data Acquisition</h2>
                 To get data for the following analysis a number of <a href="https://starwars.wikia.com">Wookieepedia</a> articles were downloaded and analyzed, in fact every Wookieepedia article that belongs to a character that has appeared
                 in a Star Wars film or tv-episode. The scripts of every movie and tv-episodes were also downloaded from <a href="https://www.springfieldspringfield.co.uk/">Springfield! Springfield!</a> and will be used for some text analysis.
             </p>
 
             <p>
-                <h2>Data processing</h2>
+                <h2 style="color:yellow;">Data processing</h2>
                 To find what characters are linked together each character Wookieepedia page is analyzed for links that point to other characters. Along with these links the affiliation of each character is extracted.
                 Before any further analysis is done the special case of Anakin Skywalker and Darth Vader has to be dealt with. Wookieepedia has only one article for them together. To split them up we do not only check
                 who links to their page, but how they link to it. If the links name is Darth Vader then a link does not go to Anakin Skywalker and vice versa. This is not perfect but will do good enough for this analysis.
             </p>
 
-            <h2>Network Analysis</h2>
+            <h2 style="color:yellow;">Network Analysis</h2>
 
             <div class="tab">
                 <button class="tablinks movies" id="defaultOpen" onclick="openNetwork(event, 'EpisodeI')">Episode I</button>
@@ -155,7 +157,7 @@
                 <button class="tablinks movies" onclick="openNetwork(event, 'EpisodeVIII')">Episode VIII</button>
             </div>
             <div id="EpisodeI" class="tabcontent movies" style="text-align:center;">
-                <h4>Star Wars: Episode I - The Phantom Menice</h4>
+                <h4 style="color:yellow;" style="color:yellow;">Star Wars: Episode I - The Phantom Menice</h4 style="color:yellow;">
 
                 <img src="networks/episode_I.png" style="height:600px;">
 
@@ -437,7 +439,7 @@
 
                 
                       
-                <h4>Star Wars: Episode II - Attack of the Clones</h4>
+                <h4 style="color:yellow;"  style="color:yellow;">Star Wars: Episode II - Attack of the Clones</h4 style="color:yellow;">
 
                 <img src="networks/episode_II.png" style="height:600px;">
 
@@ -719,7 +721,7 @@
 
                 
                       
-                <h4>Star Wars: The Clone Wars (film)</h4>
+                <h4 style="color:yellow;">Star Wars: The Clone Wars (film)</h4 style="color:yellow;">
 
                 <img src="networks/tcw_film.png" style="height:600px;">
 
@@ -999,7 +1001,7 @@
 
                 
                       
-                <h4>Star Wars: The Clone Wars (TV-series)</h4>
+                <h4 style="color:yellow;">Star Wars: The Clone Wars (TV-series)</h4 style="color:yellow;">
 
                 <img src="networks/tcw_tv.png" style="height:600px;">
 
@@ -1280,7 +1282,7 @@
 
                 
                       
-                <h4>Star Wars: Episode III - Revenge of the Sith</h4>
+                <h4 style="color:yellow;">Star Wars: Episode III - Revenge of the Sith</h4 style="color:yellow;">
 
                 <img src="networks/episode_III.png" style="height:600px;">
 
@@ -1561,7 +1563,7 @@
 
                 
                       
-                <h4>Solo: A Star Wars Story</h4>
+                <h4 style="color:yellow;">Solo: A Star Wars Story</h4 style="color:yellow;">
 
                 <img src="networks/solo.png" style="height:600px;">
 
@@ -1842,7 +1844,7 @@
 
                 
                       
-                <h4>Star Wars Rebels</h4>
+                <h4 style="color:yellow;">Star Wars Rebels</h4 style="color:yellow;">
 
                 <img src="networks/rebels.png" style="height:600px;">
 
@@ -2123,7 +2125,7 @@
 
                 
                       
-                <h4>Rogue One: A Star Wars Story</h4>
+                <h4 style="color:yellow;">Rogue One: A Star Wars Story</h4 style="color:yellow;">
 
                 <img src="networks/rogue_one.png" style="height:600px;">
 
@@ -2403,7 +2405,7 @@
 
                 
                       
-                <h4>Star Wars: Episode IV - A New Hope</h4>
+                <h4 style="color:yellow;">Star Wars: Episode IV - A New Hope</h4 style="color:yellow;">
 
                 <img src="networks/episode_IV.png" style="height:600px;">
 
@@ -2684,7 +2686,7 @@
 
                 
                       
-                <h4>Star Wars: Episode V - The Empire Strikes Back</h4>
+                <h4 style="color:yellow;">Star Wars: Episode V - The Empire Strikes Back</h4 style="color:yellow;">
 
                 <img src="networks/episode_V.png" style="height:600px;">
 
@@ -2965,7 +2967,7 @@
 
                 
                       
-                <h4>Star Wars: Episode VI - Return of the Jedi</h4>
+                <h4 style="color:yellow;">Star Wars: Episode VI - Return of the Jedi</h4 style="color:yellow;">
 
                 <img src="networks/episode_VI.png" style="height:600px;">
 
@@ -3245,7 +3247,7 @@
 
                 
                       
-                <h4>Star Wars: Episode VII - The Force Awakens</h4>
+                <h4 style="color:yellow;">Star Wars: Episode VII - The Force Awakens</h4 style="color:yellow;">
 
                 <img src="networks/episode_VII.png" style="height:600px;">
 
@@ -3524,7 +3526,7 @@
 
                 
                       
-                <h4>Star Wars: Episode VIII - The Last Jedi</h4>
+                <h4 style="color:yellow;">Star Wars: Episode VIII - The Last Jedi</h4 style="color:yellow;">
 
                 <img src="networks/episode_VIII.png" style="height:600px;">
 
@@ -3810,7 +3812,7 @@
                 on their popularity.
             </p>
 
-            <h3>Comparison between networks</h3>
+            <h3  style="color:yellow;">Comparison between networks</h3>
             <div class="flex-container">
                 <table>
                     <!--style="width:90%; margin-left: 5%; margin-right:5%;">-->
@@ -3894,7 +3896,7 @@
                 to introduce alot more characters.
             </p>
 
-            <h2>One big network</h2>
+            <h2 style="color:yellow;">One big network</h2>
             <p>
                 If we consider all the films and TV-series together we can build an extensive network that describes the entire Star Wars galaxy from the start of
                 The Phantom Menice to the end of The Last Jedi. The network is built similar as before except we do not consider one movie at a time. A node is created for
@@ -4171,7 +4173,7 @@
             the best connected characters are those that play a central role in either the cinematic universe or the TV-series. We have both the most important characters on the side of the Old Republic,
             Jedi and the Rebellion, and we have also important characters from the side the Sith and the Galactic Empire.
 
-            <h3>Community Detection</h3>
+            <h3 style="color:yellow;">Community Detection</h3>
             While preparing the data such that it could be used to build a network the affiliations of each characters were gathered. Can these affiliations shed some lights on the communities that
             exist within the network? Since each character can be affiliated with many organizations the asumption is made that the list of affiliations on Wookieepedia is in order of importance, i.e.
             that the first affiliation mentioned is the most important one. This method is rudimentary and is limiting in some ways, f.ex. can affiliations change over time so saying that a character
@@ -4202,12 +4204,12 @@
             The communities the affiliations create are more irratic and members are grouped together on the graph with members from several different communities. We can see that the Louvain-algorithm groups together
             many members from the same affiliation, but it also mixes the affiliations together.
 
-            <h2>Character sentiment</h2>
+            <h2 style="color:yellow;">Character sentiment</h2>
             The sentiment of each character is calculated with a Hedonometer algorithm. The sentiment says something about how happy/positive and unhappy/negative the characters are.
             <br />
             <div class="flex-container">
                 <div style="border:none;">
-                    Most happy/positve characters <br />
+                    <font color="yellow">Most happy/positve characters</font> <br />
                     <table>
                         <thead>
                             <tr>
@@ -4239,36 +4241,36 @@
                 </div>
 
                 <div style="border:none;">
-                    Most unhappy/negative characters <br />
-                    <table>
-                        <thead>
+                    <font color="yellow">Most unhappy/negative characters</font> <br />
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Sentiment</th>
+                                </tr>
+                            </thead>
                             <tr>
-                                <th>Name</th>
-                                <th>Sentiment</th>
+                                <td>Cad Bane</td>
+                                <td>2.799</td>
                             </tr>
-                        </thead>
-                        <tr>
-                            <td>Cad Bane</td>
-                            <td>2.799</td>
-                        </tr>
-                        <tr>
-                            <td>Jango Fett</td>
-                            <td>2.837</td>
-                        </tr>
-                        <tr>
-                            <td>Nute Gunray</td>
-                            <td>2.900</td>
-                        </tr>
-                        <tr>
-                            <td>Dooku</td>
-                            <td>2.921</td>
-                        </tr>
-                        <tr>
-                            <td>Rex</td>
-                            <td>2.939</td>
-                        </tr>
-                    </table>
-                </div>
+                            <tr>
+                                <td>Jango Fett</td>
+                                <td>2.837</td>
+                            </tr>
+                            <tr>
+                                <td>Nute Gunray</td>
+                                <td>2.900</td>
+                            </tr>
+                            <tr>
+                                <td>Dooku</td>
+                                <td>2.921</td>
+                            </tr>
+                            <tr>
+                                <td>Rex</td>
+                                <td>2.939</td>
+                            </tr>
+                        </table>
+</div>
             </div>
             <p>
                 The left table shows the 5 most happy/positive characters and the right table shows the 5 most unhappy/negative characters. The happy characters are all the "good guys" in to movies and most of the unhappy characters
@@ -4276,7 +4278,7 @@
                 involvement is during the Clone Wars when the galaxy is at war and in disorder.
             </p>
 
-            <h2>Text analysis</h2>
+            <h2 style="color:yellow;">Text analysis</h2>
             Wordclouds are generated using TF-IDF to measure the usage of each word.
 
             <div class="tab">
@@ -4299,7 +4301,7 @@
 
                 
                       
-                <h4>Star Wars: Episode I - The Phantom Menice</h4>
+                <h4 style="color:yellow;">Star Wars: Episode I - The Phantom Menice</h4 style="color:yellow;">
                 <img src="wordclouds/episode_I.png" style="width:60%;">
 
             </div>
@@ -4308,7 +4310,7 @@
 
                 
                       
-                <h4>Star Wars: Episode II - Attack of the Clones</h4>
+                <h4 style="color:yellow;">Star Wars: Episode II - Attack of the Clones</h4 style="color:yellow;">
                 <img src="wordclouds/episode_II.png" style="width:60%;">
 
             </div>
@@ -4317,7 +4319,7 @@
 
                 
                       
-                <h4>Star Wars: The Clone Wars (film)</h4>
+                <h4 style="color:yellow;">Star Wars: The Clone Wars (film)</h4 style="color:yellow;">
                 <img src="wordclouds/tcw_film.png" style="width:60%;">
 
             </div>
@@ -4326,7 +4328,7 @@
 
                 
                       
-                <h4>Star Wars: The Clone Wars (TV-series)</h4>
+                <h4 style="color:yellow;">Star Wars: The Clone Wars (TV-series)</h4 style="color:yellow;">
                 <img src="wordclouds/tcw_tv.png" style="width:60%;">
 
             </div>
@@ -4336,7 +4338,7 @@
 
                 
                       
-                <h4>Star Wars: Episode III - Revenge of the Sith</h4>
+                <h4 style="color:yellow;">Star Wars: Episode III - Revenge of the Sith</h4 style="color:yellow;">
                 <img src="wordclouds/episode_III.png" style="width:60%;">
 
             </div>
@@ -4345,7 +4347,7 @@
 
                 
                       
-                <h4>Solo: A Star Wars Story</h4>
+                <h4 style="color:yellow;">Solo: A Star Wars Story</h4 style="color:yellow;">
                 <img src="wordclouds/solo.png" style="width:60%;">
 
             </div>
@@ -4354,7 +4356,7 @@
 
                 
                       
-                <h4>Star Wars Rebels</h4>
+                <h4 style="color:yellow;">Star Wars Rebels</h4 style="color:yellow;">
                 <img src="wordclouds/rebels.png" style="width:60%;">
 
             </div>
@@ -4363,7 +4365,7 @@
 
                 
                       
-                <h4>Rogue One: A Star Wars Story</h4>
+                <h4 style="color:yellow;">Rogue One: A Star Wars Story</h4 style="color:yellow;">
                 <img src="wordclouds/rogue_one.png" style="width:60%;">
 
             </div>
@@ -4372,7 +4374,7 @@
 
                 
                       
-                <h4>Star Wars: Episode IV - A New Hope</h4>
+                <h4 style="color:yellow;">Star Wars: Episode IV - A New Hope</h4 style="color:yellow;">
                 <img src="wordclouds/episode_IV.png" style="width:60%;">
 
             </div>
@@ -4381,7 +4383,7 @@
 
                 
                       
-                <h4>Star Wars: Episode V - The Empire Strikes Back</h4>
+                <h4 style="color:yellow;">Star Wars: Episode V - The Empire Strikes Back</h4 style="color:yellow;">
                 <img src="wordclouds/episode_V.png" style="width:60%;">
 
             </div>
@@ -4390,7 +4392,7 @@
 
                 
                       
-                <h4>Star Wars: Episode VI - Return of the Jedi</h4>
+                <h4 style="color:yellow;">Star Wars: Episode VI - Return of the Jedi</h4 style="color:yellow;">
                 <img src="wordclouds/episode_VI.png" style="width:60%;">
 
             </div>
@@ -4399,7 +4401,7 @@
 
                 
                       
-                <h4>Star Wars: Episode VII - The Force Awakens</h4>
+                <h4 style="color:yellow;">Star Wars: Episode VII - The Force Awakens</h4 style="color:yellow;">
                 <img src="wordclouds/episode_VII.png" style="width:60%;">
 
             </div>
@@ -4408,7 +4410,7 @@
 
                 
                       
-                <h4>Star Wars: Episode VIII - The Last Jedi</h4>
+                <h4 style="color:yellow;">Star Wars: Episode VIII - The Last Jedi</h4 style="color:yellow;">
                 <img src="wordclouds/episode_VIII.png" style="width:60%;">
 
             </div>
@@ -4417,6 +4419,8 @@
                 Among the most used words in every movie is the name of the main protagonsist and other characters that play a central role in the storyline. We also see words related to the plots
                 in the movies, such as in Episode II - Attack of the Clones we see words like <b>cloners</b> and <b>army</b> which relate to the creation of the  Grand Army of the Republic in the same film.
             </p>
+
+            <h2 style="color:yellow;">Sentiment timeline</h2>
 
             <p>
                 Sentimentality can be calculated for each movie and each tv-episode. It is calculated by using a pre-determined measure of how happy a word is and then aggregating the happiness over every word in the scripts.
