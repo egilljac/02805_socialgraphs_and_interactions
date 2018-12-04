@@ -23,11 +23,11 @@
       <td>225</td>
     </tr>
     <tr>
-      <td>Padmé Amidala</td>
+      <td>Darth Sidious</td>
       <td>174</td>
     </tr>
     <tr>
-      <td>Darth Sidious</td>
+      <td>Padmé Amidala</td>
       <td>174</td>
     </tr>
     <tr>

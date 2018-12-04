@@ -43,7 +43,7 @@
       <td>0.404580</td>
     </tr>
     <tr>
-      <td>Ahsoka Tano</td>
+      <td>Darth Vader</td>
       <td>0.396947</td>
     </tr>
   </tbody>

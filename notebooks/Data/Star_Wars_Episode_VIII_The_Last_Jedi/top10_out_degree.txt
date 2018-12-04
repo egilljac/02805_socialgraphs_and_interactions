@@ -35,7 +35,7 @@
       <td>18</td>
     </tr>
     <tr>
-      <td>C-3PO</td>
+      <td>Kylo Ren</td>
       <td>17</td>
     </tr>
     <tr>
@@ -43,7 +43,7 @@
       <td>17</td>
     </tr>
     <tr>
-      <td>Kylo Ren</td>
+      <td>C-3PO</td>
       <td>17</td>
     </tr>
   </tbody>

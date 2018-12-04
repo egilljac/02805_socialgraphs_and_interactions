@@ -19,11 +19,11 @@
       <td>71</td>
     </tr>
     <tr>
-      <td>Darth Sidious</td>
+      <td>Qui-Gon Jinn</td>
       <td>59</td>
     </tr>
     <tr>
-      <td>Qui-Gon Jinn</td>
+      <td>Darth Sidious</td>
       <td>59</td>
     </tr>
     <tr>
@@ -39,11 +39,11 @@
       <td>40</td>
     </tr>
     <tr>
-      <td>Mace Windu</td>
+      <td>Jabba Desilijic Tiure</td>
       <td>39</td>
     </tr>
     <tr>
-      <td>Jabba Desilijic Tiure</td>
+      <td>Mace Windu</td>
       <td>39</td>
     </tr>
   </tbody>

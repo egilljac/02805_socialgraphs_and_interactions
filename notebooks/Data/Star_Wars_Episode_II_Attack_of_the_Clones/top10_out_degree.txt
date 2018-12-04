@@ -19,11 +19,11 @@
       <td>29</td>
     </tr>
     <tr>
-      <td>Kit Fisto</td>
+      <td>Mace Windu</td>
       <td>28</td>
     </tr>
     <tr>
-      <td>Mace Windu</td>
+      <td>Kit Fisto</td>
       <td>28</td>
     </tr>
     <tr>

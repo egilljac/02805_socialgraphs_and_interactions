@@ -19,11 +19,11 @@
       <td>22</td>
     </tr>
     <tr>
-      <td>R2-D2</td>
+      <td>Leia Organa</td>
       <td>19</td>
     </tr>
     <tr>
-      <td>Leia Organa</td>
+      <td>R2-D2</td>
       <td>19</td>
     </tr>
     <tr>
@@ -39,7 +39,7 @@
       <td>15</td>
     </tr>
     <tr>
-      <td>Wedge Antilles</td>
+      <td>Darth Sidious</td>
       <td>14</td>
     </tr>
     <tr>

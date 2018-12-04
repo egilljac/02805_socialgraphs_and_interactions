@@ -43,7 +43,7 @@
       <td>42</td>
     </tr>
     <tr>
-      <td>Plo Koon</td>
+      <td>Ki-Adi-Mundi</td>
       <td>39</td>
     </tr>
   </tbody>

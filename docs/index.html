@@ -23,6 +23,7 @@
 
         table {
             border: 2px double black;
+            margin: 1em auto;
         }
 
         th, td {
@@ -4204,6 +4205,80 @@
             The communities the affiliations create are more irratic and members are grouped together on the graph with members from several different communities. We can see that the Louvain-algorithm groups together
             many members from the same affiliation, but it also mixes the affiliations together.
 
+            <h2>Character sentiment</h2>
+            The sentiment of each character is calculated with a Hedonometer algorithm. The sentiment says something about how happy/positive and unhappy/negative the characters are.
+            <br />
+            <div class="flex-container">
+                <div style="border:none;">
+                    Most happy/positve characters <br />
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Sentiment</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>Rey</td>
+                            <td>3.570</td>
+                        </tr>
+                        <tr>
+                            <td>Mon Mothma</td>
+                            <td>3.569</td>
+                        </tr>
+                        <tr>
+                            <td>Han Solo</td>
+                            <td>3.569</td>
+                        </tr>
+                        <tr>
+                            <td>Jyn Erso</td>
+                            <td>3.526</td>
+                        </tr>
+                        <tr>
+                            <td>Luke Skywalker</td>
+                            <td>3.451</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div style="border:none;">
+                    Most unhappy/negative characters <br />
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Sentiment</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>Cad Bane</td>
+                            <td>2.799</td>
+                        </tr>
+                        <tr>
+                            <td>Jango Fett</td>
+                            <td>2.837</td>
+                        </tr>
+                        <tr>
+                            <td>Nute Gunray</td>
+                            <td>2.900</td>
+                        </tr>
+                        <tr>
+                            <td>Dooku</td>
+                            <td>2.921</td>
+                        </tr>
+                        <tr>
+                            <td>Rex</td>
+                            <td>2.939</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <p>
+                The left table shows the 5 most happy/positive characters and the right table shows the 5 most unhappy/negative characters. The happy characters are all the "good guys" in to movies and most of the unhappy characters
+                are the "bad guys" in the movies/TV-series. The exception is Rex. He is a clone trooper and a part of the story while they serve the Jedi, so he is a "good guy". Perhaps his Wookieepedia page is negative since all of his
+                involvement is during the Clone Wars when the galaxy is at war and in disorder.
+            </p>
+
             <h2>Text analysis</h2>
             Wordclouds are generated using TF-IDF to measure the usage of each word.
 
@@ -4222,7 +4297,7 @@
                 <button class="tablinks text" onclick="openText(event, 'EpisodeVII_text')">Episode VII</button>
                 <button class="tablinks text" onclick="openText(event, 'EpisodeVIII_text')">Episode VIII</button>
             </div>
-            
+
             <div id="EpisodeI_text" class="tabcontent text" style="text-align:center;">
 
                 <span onclick="this.parentElement.style.display='none'"
@@ -4347,13 +4422,34 @@
             </p>
 
             <p>
-                Sentimentality can be calculated for each movie and each tv-episode. It is calculated by using a pre-determined measure of how happy a word is and then aggregating the happyness over every word in the scripts.
+                Sentimentality can be calculated for each movie and each tv-episode. It is calculated by using a pre-determined measure of how happy a word is and then aggregating the happiness over every word in the scripts.
+            </p>
+            <div style="align-items:center; ">
+                <img src="sentiment_with_time.png" style="width:60%; height:auto; padding-bottom:10px;">
                 <br />
-                <img src="sentiment_with_time.png" style="width:60%;">
+                <!--<img src="sentiment_tcw_tv.png" style="width:60%; height:auto; padding-bottom:10px;">
+            <br />
+            <img src="sentiment_rebels.png" style="width:60%; height:auto; padding-bottom:10px;">-->
+
+            </div>
+            <p>
+                I can see no relation between the changes in sentiment and what is happening in the movies and TV-series. Perhaps the scripts are not the best to determine the sentiment in the Star Wars universe. They can be
+                affected by who writes it and possibly what mood they are in when they are writing. Possibly this estimate could be made better by taking into account the sentiment of the characters in each of the movies.
+                <br />
+
+                In retrospec using scripts to determine the sentiment is not the best idea since they only show a tiny part of the entire Star Wars universe.
             </p>
 
         </font>
+        <footer style="border-top: 1px solid grey; color:yellow; text-align:left; padding-top:50px; margin-bottom:50px;">
+            <ul>
+                <li><a href="Data/starwars_vader_split.json">Wookieepedia .json data source</a></li>
+                <li><a href="Data/starwars_transcripts_springfield.json">Transcripts .json data source</a></li>
+                <li><a href="Data/explainer.ipynb">IPython notebook with analysis</a></li>
+            </ul>
+        </footer>
     </div>
+    
     <!--</div>-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -4398,7 +4494,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
-    
+
 
 </body>
 </html>

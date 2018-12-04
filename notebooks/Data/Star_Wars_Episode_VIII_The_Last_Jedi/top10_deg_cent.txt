@@ -31,15 +31,15 @@
       <td>0.271084</td>
     </tr>
     <tr>
-      <td>Han Solo</td>
-      <td>0.240964</td>
-    </tr>
-    <tr>
       <td>BB-8</td>
       <td>0.240964</td>
     </tr>
     <tr>
       <td>Rey</td>
+      <td>0.240964</td>
+    </tr>
+    <tr>
+      <td>Han Solo</td>
       <td>0.240964</td>
     </tr>
     <tr>

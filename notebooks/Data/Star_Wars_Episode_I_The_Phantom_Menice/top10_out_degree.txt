@@ -15,11 +15,11 @@
       <td>24</td>
     </tr>
     <tr>
-      <td>Padmé Amidala</td>
+      <td>R2-D2</td>
       <td>21</td>
     </tr>
     <tr>
-      <td>R2-D2</td>
+      <td>Padmé Amidala</td>
       <td>21</td>
     </tr>
     <tr>
@@ -39,11 +39,11 @@
       <td>19</td>
     </tr>
     <tr>
-      <td>Plo Koon</td>
+      <td>Ki-Adi-Mundi</td>
       <td>18</td>
     </tr>
     <tr>
-      <td>Mas Amedda</td>
+      <td>Plo Koon</td>
       <td>18</td>
     </tr>
   </tbody>

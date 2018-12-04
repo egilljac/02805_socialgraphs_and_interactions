@@ -23,11 +23,11 @@
       <td>190</td>
     </tr>
     <tr>
-      <td>Garazeb Orrelios</td>
+      <td>Hera Syndulla</td>
       <td>176</td>
     </tr>
     <tr>
-      <td>Hera Syndulla</td>
+      <td>Garazeb Orrelios</td>
       <td>176</td>
     </tr>
     <tr>
@@ -43,7 +43,7 @@
       <td>106</td>
     </tr>
     <tr>
-      <td>Darth Vader</td>
+      <td>Ahsoka Tano</td>
       <td>104</td>
     </tr>
   </tbody>

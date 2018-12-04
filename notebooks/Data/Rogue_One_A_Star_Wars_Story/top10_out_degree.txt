@@ -11,11 +11,11 @@
       <td>22</td>
     </tr>
     <tr>
-      <td>Mon Mothma</td>
+      <td>Jyn Erso</td>
       <td>21</td>
     </tr>
     <tr>
-      <td>Jyn Erso</td>
+      <td>Mon Mothma</td>
       <td>21</td>
     </tr>
     <tr>
@@ -43,7 +43,7 @@
       <td>16</td>
     </tr>
     <tr>
-      <td>Galen Walton Erso</td>
+      <td>Jan Dodonna</td>
       <td>15</td>
     </tr>
   </tbody>

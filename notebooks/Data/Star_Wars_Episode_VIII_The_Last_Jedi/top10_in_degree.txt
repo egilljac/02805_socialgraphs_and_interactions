@@ -35,11 +35,11 @@
       <td>26</td>
     </tr>
     <tr>
-      <td>Amilyn Holdo</td>
+      <td>Snoke</td>
       <td>24</td>
     </tr>
     <tr>
-      <td>Snoke</td>
+      <td>Amilyn Holdo</td>
       <td>24</td>
     </tr>
     <tr>

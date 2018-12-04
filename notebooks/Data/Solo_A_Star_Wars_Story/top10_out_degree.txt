@@ -23,11 +23,11 @@
       <td>12</td>
     </tr>
     <tr>
-      <td>Chewbacca</td>
+      <td>Tobias Beckett</td>
       <td>11</td>
     </tr>
     <tr>
-      <td>Tobias Beckett</td>
+      <td>Chewbacca</td>
       <td>11</td>
     </tr>
     <tr>
@@ -35,15 +35,15 @@
       <td>9</td>
     </tr>
     <tr>
-      <td>Rio Durant</td>
-      <td>8</td>
-    </tr>
-    <tr>
       <td>Enfys Nest</td>
       <td>8</td>
     </tr>
     <tr>
       <td>Maul</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Rio Durant</td>
       <td>8</td>
     </tr>
   </tbody>

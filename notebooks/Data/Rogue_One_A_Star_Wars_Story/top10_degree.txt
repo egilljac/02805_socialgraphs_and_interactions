@@ -15,11 +15,11 @@
       <td>66</td>
     </tr>
     <tr>
-      <td>Darth Vader</td>
+      <td>Galen Walton Erso</td>
       <td>48</td>
     </tr>
     <tr>
-      <td>Galen Walton Erso</td>
+      <td>Darth Vader</td>
       <td>48</td>
     </tr>
     <tr>

@@ -31,11 +31,11 @@
       <td>45</td>
     </tr>
     <tr>
-      <td>Han Solo</td>
+      <td>Rey</td>
       <td>40</td>
     </tr>
     <tr>
-      <td>Rey</td>
+      <td>Han Solo</td>
       <td>40</td>
     </tr>
     <tr>
